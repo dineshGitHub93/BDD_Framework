@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features ="src/test/resources/features",
 		glue = {"stepDefinitions"},
-		tags = "@dataTable",
+		tags = "@dataTablemap",
 		monochrome = true
 		)
 public class TestRunner extends AbstractTestNGCucumberTests{
