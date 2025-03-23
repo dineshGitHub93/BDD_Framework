@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features ="src/test/resources/features",
-		glue = {"stepDefinitions"},
-		tags = "@dataTablemap",
+		glue = {"stepDefinitions","hooks"},
+		tags = "@sauce",
 		monochrome = true
 		)
 public class TestRunner extends AbstractTestNGCucumberTests{
